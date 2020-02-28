@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.shamanland:facebook-like-button:0.1.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/facebook-like-button-0.1.8.aar/3b6692b9f3601ad78e229e4e0759bea4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/facebook-like-button-0.1.8.aar/3b6692b9f3601ad78e229e4e0759bea4/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.shamanland/facebook-like-button/0.1.8/8e9b20859fac05e6034cea6b2749679f84c29cd3/facebook-like-button-0.1.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

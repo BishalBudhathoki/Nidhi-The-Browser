@@ -1,0 +1,39 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\NetworksProject\\myprj\\Nidhi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Er.Bishal Budhathoki\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-like-button-0.1.8.aar\\b99e02a22f6a1be64d0c896ed3e60e3f\\res\\values-hdpi-v4\\values.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "204",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "446"
+                    },
+                    "to": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "332",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "574"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Er.Bishal Budhathoki\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\c94aa592d0067e66d283ea2a09c6f08b\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

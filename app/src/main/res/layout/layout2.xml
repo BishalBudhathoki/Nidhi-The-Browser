@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/diagonal_back" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/m3"
+            app:civ_border_color="@color/TransparentWhite"
+            app:civ_border_width="10dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Bishal Budhathoki"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#706f6f"
+                tools:ignore="HardcodedText,UnusedAttribute" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Dreamer | Developer | Coder "
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,UnusedAttribute" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/about_title"
+        android:layout_below="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT ME"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:textColor="#bcbaba"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_marginTop="24dp"
+        app:theme="@style/TransparentBar">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="27dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/arrow"
+            android:tint="#FFFFFF"
+            android:gravity="left"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:layout_gravity="center"
+            android:text="P R O F I L E"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            tools:ignore="HardcodedText,UnusedAttribute" />
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_title"
+        android:layout_above="@+id/footer_linear">
+        <ScrollView
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/about_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Bishal Budhathoki is the developer of this Nidhi - THe Browser. He is a very keen learner and has a enthusiastic behaviour. Here is what he has to say about Nidhi:"
+
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="#8c8c8c"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:id="@+id/about_title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ABOUT NIDHI"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18sp"
+                    android:textColor="#bcbaba"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+                <TextView
+                    android:id="@+id/about_content1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="This is a basic browser application with only basic features required. Some other basic features will be added soon."
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="#8c8c8c"
+                    tools:ignore="HardcodedText"/>
+                <TextView
+                    android:id="@+id/about_content2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Thanks To: \n
+                       1.Jerry Lin \n
+                       2.Archana Narayan \n "
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="#8c8c8c"
+                    tools:ignore="HardcodedText"/>
+                <TextView
+                    android:id="@+id/about_content3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact Us: deverbishal331@gmail.com"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:lineSpacingExtra="4dp"
+                    android:layout_marginRight="10dp"
+                    android:textSize="16sp"
+                    android:textColor="#8c8c8c"
+                    tools:ignore="HardcodedText"/>
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:id="@+id/gradient_linear"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/gradient_back"
+            android:orientation="vertical">
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/footer_linear"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#FFFFFF"
+        tools:ignore="DisableBaselineAlignment">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FOLLOWING"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#bcbaba"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="314"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#797878"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FOLLOWERS"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#bcbaba"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="125"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#797878"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginBottom="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PHOTOS"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="#bcbaba"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="125"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#797878"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Wed Nov 07 08:14:06 NPT 2018
+1.base=D\:\\NetworksProject\\myprj\\Nidhi\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+2.path=classes.dex
+0.baseType=DIRECTORY
+2.base=D\:\\NetworksProject\\myprj\\Nidhi\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=IronMan.jpg
+0.set=ASSET
+0.base=D\:\\NetworksProject\\myprj\\Nidhi\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+2.baseType=DIRECTORY
+1.path=htmls1.html

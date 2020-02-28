@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center|center_vertical"
+        android:padding="6dp">
+
+        <LinearLayout
+            android:id="@+id/project_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center|center_vertical">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facebook Integration"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#3b5998"
+                android:ellipsize="end"
+                tools:ignore="HardcodedText"
+                android:maxLines="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sources"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center|center_vertical">
+            <TextView
+                android:id="@android:id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Like, Share, Recommend"
+                android:textSize="14sp"
+                android:textColor="#3b5998"
+                android:ellipsize="end"
+                tools:ignore="HardcodedText"
+                android:maxLines="1" />
+        </LinearLayout>
+
+        <com.shamanland.facebook.likebutton.FacebookLikePlugin
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp">
+
+            <com.shamanland.facebook.likebutton.FacebookLikeButton
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                style="@style/Widget.FacebookLikeButton"
+                app:pageUrl="https://www.facebook.com/creatingprograms/"
+                app:pageTitle="Like Integration"
+                app:pageText="Like the developer page to show support!"
+                app:pagePictureUrl="https://scontent.fbom3-1.fna.fbcdn.net/v/t1.0-
+9/14570459_1382362318460258_2506189693067139008_n.jpg"
+                app:pagePictureId="@drawable/appic"
+                android:id="@+id/facebookLikeButton2" />
+        </com.shamanland.facebook.likebutton.FacebookLikePlugin>
+
+        <com.shamanland.facebook.likebutton.FacebookLikePlugin
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            app:likeId="@+id/share2"
+            >
+            <com.shamanland.facebook.likebutton.FacebookLikeButton
+                android:layout_height="40dp"
+                style="@style/Widget.FacebookLikeButton"
+                android:id="@+id/share2"
+                android:layout_width="match_parent"
+                android:text="@string/com_shamanland_share"
+                app:pageUrl="https://www.facebook.com/ErBishalBudhathoki/"
+                app:pageTitle="Share Integration"
+                app:pageText="Share Nidhi with peoples"
+                app:pagePictureId="@drawable/appic"
+                app:optLayout="box_count" />
+        </com.shamanland.facebook.likebutton.FacebookLikePlugin>
+
+        <com.shamanland.facebook.likebutton.FacebookLikeButton
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            style="@style/Widget.FacebookLikeButton"
+            android:id="@id/com_shamanland_facebook_like_recommend"
+            android:text="@string/com_shamanland_recommend"
+            android:layout_margin="20dp"
+            app:pageUrl="https://www.facebook.com/ErBishalBudhathoki/"
+            app:pageTitle="Recommend Integration"
+            app:pageText="Connect with developer facebook"
+            app:pagePictureId="@drawable/appic"
+            app:optAction="recommend"
+            app:optLayout="button_count"
+            />
+    </LinearLayout>
+</ScrollView>

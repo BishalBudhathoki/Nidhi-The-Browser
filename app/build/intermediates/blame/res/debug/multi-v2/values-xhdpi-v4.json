@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\NetworksProject\\myprj\\Nidhi\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xhdpi-v4\\values-xhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Er.Bishal Budhathoki\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-like-button-0.1.8.aar\\b99e02a22f6a1be64d0c896ed3e60e3f\\res\\values-xhdpi-v4\\values.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "205",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "443"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "293"
+                    }
+                }
+            ]
+        }
+    ]
+}
