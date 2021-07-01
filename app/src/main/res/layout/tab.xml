@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:text="go"
+                tools:ignore="HardcodedText,RelativeOverlap,RtlHardcoded" />
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="61dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dip"
+                android:layout_marginRight="0dip" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/transparent"
+                android:ems="10"
+                android:hint="URL HERE"
+                tools:ignore="HardcodedText,RtlHardcoded,UnusedAttribute" />
+
+            <Button
+                android:id="@+id/add_tab"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:text="@string/add" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="0dp" />
+
+    </LinearLayout>
+
+</TabHost>
