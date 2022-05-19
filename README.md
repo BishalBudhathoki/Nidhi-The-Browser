@@ -11,11 +11,16 @@ Main features from Nidhi:
 5. Fast Download
 6. Small size
 
-![nidhi1](https://user-images.githubusercontent.com/35174206/158053138-0300dab2-e03e-4f1d-a323-15725d5090ed.png)
+  ![nidhi1](https://user-images.githubusercontent.com/35174206/158053138-0300dab2-e03e-4f1d-a323-15725d5090ed.png)
 
-![nidhi2](https://user-images.githubusercontent.com/35174206/158053145-684bdc45-f12e-4de1-b153-9f17198dc95f.png)
+  ![nidhi2](https://user-images.githubusercontent.com/35174206/158053145-684bdc45-f12e-4de1-b153-9f17198dc95f.png)
 
 Nidhi believes in user satisfaction, so user voice and feature on demand will be taken under consideration and will be provided on near possible future.
 
 ## Playstore link:
-https://play.google.com/store/apps/details?id=com.erbisdev.mbrow&hl=en_US&gl=US
+<a href="https://play.google.com/store/apps/details?id=com.erbisdev.mbrow">
+     <p align="center">
+      <img src="https://github.com/BishalBudhathoki/Dont-Fall-Game/blob/master/en_get.svg" width="512" height="105" >
+     </p>
+</a> 
+
